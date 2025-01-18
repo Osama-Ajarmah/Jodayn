@@ -34,7 +34,7 @@ public class Login extends Common {
 		AssertJUnit.assertEquals(logInToYourAccount.getText(), "Login to your account");
 
 		WebElement logInEmail = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/input[2]"));	
-		logInEmail.sendKeys("osama.zwaghaa+3@gmail.com");
+		logInEmail.sendKeys("osama.zwagha+3@gmail.com");
 		
 		WebElement logInPassword = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/input[3]"));	
 		logInPassword.sendKeys("Osama");
