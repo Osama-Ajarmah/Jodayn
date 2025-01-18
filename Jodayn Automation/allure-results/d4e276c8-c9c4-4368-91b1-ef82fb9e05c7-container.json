@@ -1,0 +1,1 @@
+{"uuid":"d4e276c8-c9c4-4368-91b1-ef82fb9e05c7","name":"Failed suite [smoke]","children":["b2220031-df74-42a2-9855-707e94b1aa9a"],"befores":[],"afters":[{"name":"stopDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737230150810,"stop":1737230150879}],"start":1737230096916,"stop":1737230150887}
