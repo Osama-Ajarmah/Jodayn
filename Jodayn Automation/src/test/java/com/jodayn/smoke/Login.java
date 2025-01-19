@@ -39,6 +39,7 @@ public class Login extends Common {
 		WebElement logInPassword = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/input[3]"));	
 		logInPassword.sendKeys("Osama");
 		
+		
 		WebElement logInButton = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/button"));	
 		logInButton.click();
 		
